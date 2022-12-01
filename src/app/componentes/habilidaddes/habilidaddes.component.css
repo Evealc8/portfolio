@@ -1,0 +1,80 @@
+/*container presentacion-edu-cursos-habilidades-proyectos*/
+.container{
+    padding: 1.875rem;
+    text-align: center;
+}
+/*container en el habilidades y dashboard*/
+.container1{
+    padding: 0.625rem;
+    min-width: 15.625rem;
+    max-width: 87.5rem;
+}
+.hardSoftKills{
+    background-color: black;
+}
+/*CIRCULOS DE PROGRESO*/
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    background-color: #ebebeb; }
+  
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1rem;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 5.625rem;
+    height: 5.625rem;
+    line-height: 5.625rem;
+    margin-left: -2.813rem;
+    margin-top: -2.813rem;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #ffffff; }
+
+.progress-circle.progress-25:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(180deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-30:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(198deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-50:after {
+    background-image: linear-gradient(-90deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-55:after {
+    background-image: linear-gradient(-72deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-60:after {
+    background-image: linear-gradient(-54deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-40:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(234deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-75:after {
+    background-image: linear-gradient(0deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-80:after {
+    background-image: linear-gradient(18deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-90:after {
+    background-image: linear-gradient(54deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+h5.circle{
+    color: #fff;
+}
+
+
+/*FIN CIRCULOS DE PROGRESO*/

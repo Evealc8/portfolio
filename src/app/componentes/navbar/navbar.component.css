@@ -1,0 +1,20 @@
+/* fondo de la barra*/
+nav.bg-black{
+    background-color: #000;
+}
+
+/*barra de inicio*/
+header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/*logos transparentes*/
+.list-group{
+    --bs-list-group-bg: transparent;
+}

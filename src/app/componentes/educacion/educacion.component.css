@@ -1,0 +1,27 @@
+/*container presentacion-edu-cursos-habilidades-proyectos*/
+.container{
+    padding: 1.875rem;
+    text-align: center;
+    background-color: black;
+}
+.container div {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    min-width: 20rem;
+    max-width: 87.5rem;
+    background-color: #fff;
+}
+
+/*educacion*/
+.educacion .container{
+    padding-bottom: 2rem;
+}
+/*logos de educacion*/
+.iconosEd{
+    width: 3.175rem;
+    right: 3.175rem;
+}
+.educacion{
+    background-color: black;
+}

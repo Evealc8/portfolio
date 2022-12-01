@@ -1,0 +1,70 @@
+/* fondo de la barra*/
+nav.bg-black{
+    background-color: #000;
+}
+
+/*barra de inicio*/
+header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/*logos transparentes*/
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+/*DASHBOARD*/
+.dashboard{
+    background-color: #000;
+}
+
+/*BARRA VERTICAL*/
+nav.vertical{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+}
+/*CADA UNO DE LOS INDICES*/
+li.vertical{
+    display: flex;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 1rem 0;
+}
+ 
+/*DECORACION LOGOS*/
+a.list-group-item,a:hover{
+    text-decoration: none;
+    color: #cbc9c9;
+}
+a.list-group-item:hover{
+    color: #ffffff;
+}
+
+/*Cada uno de los input y esas cosas*/
+.tab-content{
+    width: 50%;
+}
+
+/*solo container del footer del dashboard*/ 
+.container4{
+    padding: 1.5rem;   
+    text-align: center;
+    background-color: black;
+}
+p.footer{
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+footer .contanier4{
+    background-color: black;
+    position: fixed;
+}

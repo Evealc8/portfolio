@@ -1,0 +1,22 @@
+/* PAGINA REGISTER */
+.login{
+    height: 82vh;
+    background-color: black;
+}
+
+.formulario-register{
+    margin-top: 5%;
+}
+
+.container3{
+    text-align: center;
+}
+
+/*texto del footer en login register y dashboard*/
+p.footer{
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}

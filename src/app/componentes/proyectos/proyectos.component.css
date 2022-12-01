@@ -1,0 +1,16 @@
+.proyectos{
+    background-color: black;
+}
+/*container presentacion-edu-cursos-habilidades-proyectos*/
+.container{
+    padding: 1.875rem;
+    text-align: center;
+}
+.container div {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    min-width: 20rem;
+    max-width: 87.5rem;
+    background-color: rgb(245,245,245);
+}
