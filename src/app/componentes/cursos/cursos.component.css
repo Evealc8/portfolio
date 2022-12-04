@@ -5,21 +5,26 @@
 }
 
 .container div {
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    min-width: 20rem;
-    max-width: 87.5rem;
     background-color: #fff;
 }
 
+.container-col{
+    justify-content: center;
+}
 /*img certificados*/
 .certificado{
-    width: 75%;
-    height: 80%;
-    background-size: cover;
-    
+    width: 20rem;
+    height: 15rem;
+    padding-left: 10%;
+    padding: 0.8rem;
 }
 .cursos{
     background-color: black;
+}
+
+@media (min-width: 45rem){
+    .container-col{
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }

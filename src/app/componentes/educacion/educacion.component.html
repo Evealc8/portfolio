@@ -5,15 +5,12 @@
         <h3 class="pt-3">
           <i> Educación </i>
         </h3>
-        <div class="row align-items-center">
+        <div class="row align-items-center" *ngFor="let escuela of educacion">
           <div class="col">
-            <img src="./../../../assets/img/Logo-Esc.png" alt="Esc" class="iconosEd">
-            <h5>Escuela Normal "P.V.M." <br> Bachiller en Economía y Administración <br> 2013-2018 </h5>
+            <img [src]="escuela.logo" alt="Esc" class="iconosEd">
+            <h5>{{escuela.institucion}}<br> {{escuela.titulo}}<br> {{escuela.fecha}} </h5>
           </div>
-          <div class="col">
-            <img src="./../../../assets/img/logo-isfdpb.png" alt="ISFD" class="iconosEd">
-           <h5>Instituto Superior de Formación Docente "J.L.B."<br> Tecnicatura en Informática <br>Actualidad </h5>
-          </div>
+      
         </div>
       </div>
     </div>

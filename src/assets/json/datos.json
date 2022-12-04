@@ -1,0 +1,52 @@
+{
+    "banner":[
+        {
+            "foto": "../assets/img/perfil.png",
+            "nombre":"Evelyn Romina Alcaraz",
+            "descripcion": "Desarrollador Full Stack Jr."
+        }
+    ],
+    "sobremi":[
+        {
+            "sobremi": "Soy estudiante del curso Argentina Programa para Desarrollador Jr. Full Stack. Estudiante de la Tecnicatura de Informática. Me gusta enseñar matemática, cálculo y álgebra para ingeniería." 
+        }
+    ],
+    "educacion":[
+        {
+            "Id":1,
+            "institucion": "Escuela Normal P.V.M.",
+            "titulo":"Bachiller en Econommia y Administración",
+            "fecha":"2013-2018",
+            "logo": "../assets/img/Logo-Esc.png"
+        },
+        {
+            "Id":2,
+            "institucion": "Instituto Superior de Formación Docente J.L.B.",
+            "titulo":"Tecnico Superior en Infraestructura Informática",
+            "fecha":"Actualidad",
+            "logo": "../assets/img/logo-isfdpb.png"
+        }
+    ],
+    "certificados":[
+        {
+            "Id":1,
+            "certificado":"../assets/img/Certificado-CIVIL3D.png"
+        },
+        {
+            "Id":2,
+            "certificado":"../assets/img/Certificado-MundoDigital.png"
+        },
+        {
+            "Id":3,
+            "certificado":"../assets/img/Certificado-SAP2000.png"
+        },
+        {
+            "Id":4,
+            "certificado":"../assets/img/Certificado-SeProgramar.png"
+        }
+    ],
+
+    "url":"https://www.youtube.com/embed/Ar4tLjqBW34?start=60"
+        
+
+}

@@ -1,14 +1,14 @@
 <section id="fondo">
-    <div class="perfil">
+    <div class="perfil" *ngFor="let perfil of banner">
       <div>
-          <img src="./../../../assets/img/perfil.png" alt="foto_de_perfil" class="avatar img-fluid">
+          <img [src]="perfil.foto" alt="foto_de_perfil" class="avatar img-fluid">
       </div>
       <div>
           <h1 class="intro text-white text-center">
-          Evelyn Romina Alcaraz 
+          {{perfil.nombre}}
         </h1>
         <h4 class="intro text-white text-center">
-          Desarrollador Full Stack Jr.</h4>
+          {{perfil.descripcion}}</h4>
       </div>
     </div>
  </section>

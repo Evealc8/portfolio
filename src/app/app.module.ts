@@ -17,6 +17,8 @@ import { IndexComponent } from './componentes/index/index.component';
 import { RegisterComponent } from './componentes/register/register.component';
 import { DashboardComponent } from './componentes/dashboard/dashboard.component';
 import { PaginaloginComponent } from './componentes/paginalogin/paginalogin.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { LogoutComponent } from './componentes/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { PaginaloginComponent } from './componentes/paginalogin/paginalogin.comp
     RegisterComponent,
     DashboardComponent,
     PaginaloginComponent,
+    LoginComponent,
+    LogoutComponent,
   ],
   imports: [
     BrowserModule,

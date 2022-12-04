@@ -5,12 +5,13 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class JsonService {
+export class DatosService {
 // http = alias
   constructor(private http:HttpClient) { }
 // metodo observable que devuelve datos
 // funcion obtener datos
   getDatos():Observable<any>{
-    return this.http.get('./assets/bd.json');
+    return this.http.get('./assets/json/datos.json');
   }
 }
+
