@@ -46,7 +46,75 @@
         }
     ],
 
-    "url":"https://www.youtube.com/embed/Ar4tLjqBW34?start=60"
-        
+    "habilidades":[
+        {
+            "Id":1,
+            "porcentaje": "25",
+            "habilidad":"CSS",
+            "circulo": "progress-25"
+        },
+        {
+            "Id":2,
+            "porcentaje": "30",
+            "habilidad":"HTML",
+            "circulo": "progress-30"
+        },
+        {
+            "Id":3,
+            "porcentaje": "50",
+            "habilidad":"PYTHON",
+            "circulo": "progress-50"
+        },
+        {
+            "Id":4,
+            "porcentaje": "40",
+            "habilidad":"Java Script",
+            "circulo": "progress-40"
+        },
+        {
+            "Id":5,
+            "porcentaje": "30",
+            "habilidad":"JAVA",
+            "circulo": "progress-30"
+        },
+        {
+            "Id":6,
+            "porcentaje": "60",
+            "habilidad":"AutoCAD",
+            "circulo": "progress-60"
+        }
+    ],
+    "habilidadesB":[
+        {
+            "Id":1,
+            "porcentaje": "75",
+            "habilidad":"Comunicación",
+            "circulo": "progress-75"
+        },
+        {
+            "Id":2,
+            "porcentaje": "80",
+            "habilidad":"Trabajo en equipo",
+            "circulo": "progress-80"
+        },
+        {
+            "Id":3,
+            "porcentaje": "75",
+            "habilidad":"Liderazgo",
+            "circulo": "progress-75"
+        },
+        {
+            "Id":4,
+            "porcentaje": "80",
+            "habilidad":"Servicio al cliente",
+            "circulo": "progress-80"
+        },
+        {
+            "Id":5,
+            "porcentaje": "90",
+            "habilidad":"Adaptación",
+            "circulo": "progress-90"
+        }
+    ]
 
 }

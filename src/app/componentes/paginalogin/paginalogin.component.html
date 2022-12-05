@@ -10,17 +10,19 @@
         </div>
         <div class="col-4 formulario-login">
           <div class="modal-body">
+
             <!--formulario para login-->
-            <form>
+            <form [formGroup]="form"  (ngSubmit)="onEnviar($event)" >
               <div class="mb-3 text-white">
-                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                <label for="email" class="form-label">Correo electrónico</label>
                 <input type="email" class="form-control" placeholder="Correo electrónico" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
               <div class="mb-3 text-white">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <label for="password" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" placeholder="Contraseña" id="exampleInputPassword1">
               </div>
             </form>
+
       </div>
       <div class="modal-footer">
         <button type="submit" class="btn btn-secondary"><a routerLink="/dashboard" class="">Iniciar sesion</a></button>

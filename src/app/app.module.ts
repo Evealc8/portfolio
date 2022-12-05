@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -9,7 +10,7 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { PresentacionComponent } from './componentes/presentacion/presentacion.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { CursosComponent } from './componentes/cursos/cursos.component';
-import { HabilidaddesComponent } from './componentes/habilidaddes/habilidaddes.component';
+import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 
@@ -20,6 +21,7 @@ import { PaginaloginComponent } from './componentes/paginalogin/paginalogin.comp
 import { LoginComponent } from './componentes/login/login.component';
 import { LogoutComponent } from './componentes/logout/logout.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,7 @@ import { LogoutComponent } from './componentes/logout/logout.component';
     PresentacionComponent,
     EducacionComponent,
     CursosComponent,
-    HabilidaddesComponent,
+    HabilidadesComponent,
     ProyectosComponent,
     FooterComponent,
     IndexComponent,
@@ -41,7 +43,9 @@ import { LogoutComponent } from './componentes/logout/logout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
