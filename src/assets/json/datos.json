@@ -1,4 +1,22 @@
 {
+    "redes":[
+        {
+            "Id":1,
+            "url":"https://www.linkedin.com/in/evelyn-alcaraz-5231b41b9/",
+            "icono":"fa-brands fa-linkedin text-white"
+        },
+        {
+            "Id":2,
+            "url":"https://www.facebook.com/EveAlcaraz8/",
+            "icono":"fa-brands fa-facebook text-white"
+        },
+        {
+            "Id":3,
+            "url":"https://github.com/Evealc8",
+            "icono":"fa-brands fa-github text-white"
+        }
+    ],
+
     "banner":[
         {
             "foto": "../assets/img/perfil.png",

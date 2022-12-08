@@ -5,11 +5,14 @@
           <a class="navbar-brand" href="index.html">
             <img src="./../../../assets/img/APLogo-20-20.png" alt="Logo Argentina Programa" class="w-50" >
           </a>
+      
           <!--redes sociales-->
           <ul class="list-group list-group-horizontal"> 
-            <li class="list-group-item"><a href="https://www.linkedin.com/in/evelyn-alcaraz-5231b41b9/" target="_blank" ><i class="fa-brands fa-linkedin text-white"></i></a></li>
-            <li class="list-group-item"><a href="https://www.facebook.com/EveAlcaraz8/" target="_blank"><i class="fa-brands fa-facebook text-white"></i></a></li>
-            <li class="list-group-item"><a href="https://github.com/Evealc8" target="_blank"><i class="fa-brands fa-github text-white"></i></a></li>
+            <div *ngFor="let red of redes">
+            <li class="list-group-item">
+              <a [href]="red.url" target="_blank" ><i [ngClass]="red.icono"></i></a>
+            </li>
+            </div>
             <app-login></app-login>
           </ul>
         </div>
