@@ -9,10 +9,11 @@
         <div class="col-4">
         </div>
         <div class="col-4 formulario-register pt-3">
+          <!--formulario para registro-->
+          <form [formGroup]="form"  (ngSubmit)="onEnviar($event)">
           <div class="modal-body">
-            <!--formulario para login-->
-            <form>
               <div class="row g-3">
+
                   <div class="col">
                       <label class="form-label text-white">Nombre</label>
                     <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
@@ -22,20 +23,39 @@
                     <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
                   </div>
               </div>
+
               <div class="mb-3 text-white">
                 <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" placeholder="Correo electrónico" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" formControlName="email" class="form-control" placeholder="Correo electrónico" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
+              <div *ngIf="Mail?.errors  && Mail?.touched">    
+                <p *ngIf="Mail?.hasError('required')" class="error">
+                  El email es requerido.
+                </p>
+                <p *ngIf="Mail?.hasError('email')" class="error">
+                  El formato del email debe ser válido.
+                </p>
+              </div>
+
               <div class="mb-3 text-white">
                 <label class="form-label">Contraseña</label>
-                <input class="form-control" placeholder="Contraseña" id="exampleInputPassword1">
+                <input class="form-control"  formControlName="password" placeholder="Contraseña" id="exampleInputPassword1">
               </div>
-            </form>
-      </div>
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-secondary">Registrar</button>
-      </div>
-      <small>¿Ya tienes una cuenta? <a routerLink="/paginalogin">Ingresar</a></small>
+              <div *ngIf="Password?.errors  && Password?.touched">
+                 <p *ngIf="Password?.hasError('required')" class="error">
+                    La contraseña es requerida.
+                </p>
+                <p *ngIf="Password?.errors?.['minlength']" class="error">
+                     La contraseña debe ser de 8 o más caracteres.
+                </p>
+             </div>
+              
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-secondary"> <a routerLink="/dashboard" class="boton">Registrar</a></button>
+              </div>
+              <small>¿Ya tienes una cuenta? <a routerLink="/paginalogin">Ingresar</a></small>
+          </div>
+          </form>
         </div>
         <div class="col-4">
         </div>
